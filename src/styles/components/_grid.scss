@@ -1,0 +1,15 @@
+.intro_grid {
+  display: grid;
+  grid-template-columns: 2.5fr 1fr;
+  margin-bottom: 3rem;
+}
+.Intro_profiles_panel_grid {
+  display: grid;
+  grid-template-columns: 2fr;
+}
+.form__error {
+  color: red;
+}
+.accountCreation {
+  color: green;
+}

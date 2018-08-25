@@ -1,0 +1,70 @@
+.Intro_login_panel_grid {
+  display: grid;
+  grid-template-rows: 0fr 3fr 0fr;
+}
+.login_panel_userno {
+  margin-top: 0.5rem;
+}
+.noOfusers {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #FF0F0F;
+}
+.userCount {
+  color: #B1B1B1;
+  font-size: 17px;
+}
+.userCountNo {
+  color: black;
+  font-weight: bold;
+}
+.login_panel_join-us {
+  border: #95989A 1px;
+  box-shadow: #95989A 0px 2px 3px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+.special_offer_btn {
+  align-self: end;
+  padding: 4rem;
+  background: white;
+  color: black;
+  font-family: sans-serif;
+  font-weight: bolder;
+  border: #95989A 1px;
+  box-shadow: #95989A 0px 2px 3px;
+}
+.join_us {
+  margin-top: 2rem;
+  font-weight: bolder;
+}
+.fbLogin {
+  background-image: linear-gradient(to right, #4090FF , #2ED5FF);
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+.googleLogin {
+  background-image: linear-gradient(to left, #FF966F , #FF5931);
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+.login_inputs {
+  margin-top: 10rem;
+}
+.login_panel_input {
+  width: 27rem;
+  margin: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}

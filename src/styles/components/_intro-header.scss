@@ -1,0 +1,23 @@
+.Intro_header {
+  padding: 1.6rem 0 1rem 0;
+  box-shadow: 1px 3px 5px #E0E0E0;
+}
+.intro_header_content {
+    display: flex;
+    justify-content: space-between;
+}
+.header_input {
+  width: 18rem;
+  height: 4rem;
+  margin-right: 3rem;
+  padding: 0.5rem;
+  background: #FFFFC6;
+  border: 1px solid #D1D1D1;
+}
+
+.profile_img {
+  cursor: pointer;
+}
+.intro_header_content_mobile {
+  text-align: center;
+}

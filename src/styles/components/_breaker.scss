@@ -1,0 +1,59 @@
+.breaker {
+  position: relative;
+  padding: 0 2rem;
+}
+.line {
+  background-color: lightgrey;
+  position: absolute;
+  width: 27rem;
+  height: 1px;
+  top: 3.5rem;right:1rem;
+}
+.or_pad {
+  background: white;
+  position: absolute;
+  margin: 0;
+  padding: 0 3rem;
+  right: 9rem;
+}
+.or {
+  background: white;
+  box-shadow: #95989A 0px 2px 2px;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+}
+.breaker_mobile {
+  max-width: 100%;;
+  align-items: center;
+  padding: 0 1rem;
+}
+.or_pad_mobile {
+  max-width: 100%;
+  background: white;
+  margin: 0 auto;
+  max-width: 5rem;
+}
+.signUp {
+  max-width: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+}
+.signupBtn {
+  max-width: 100%;
+  color: blue;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.or {
+  background: white;
+  box-shadow: #95989A 0px 2px 2px;
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  line-height: 5rem;
+}

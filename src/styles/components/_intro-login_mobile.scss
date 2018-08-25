@@ -1,0 +1,51 @@
+.login_panel_join-us_mobile {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+}
+.join_us_mobile {
+  margin-top: 2rem;
+  font-weight: bolder;
+}
+.buttons {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.fbLogin_mobile {
+  max-width: 100%;
+  background-image: linear-gradient(to right, #4090FF , #2ED5FF);
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+.googleLogin_mobile {
+  max-width: 100%;
+  background-image: linear-gradient(to left, #FF966F , #FF5931);
+  border: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+.login_inputs_mobile {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-template-columns: 1fr;
+  margin-top: 1rem;
+}
+.login_panel_input_mobile {
+  max-width: 100%;
+  width: 75rem;
+  margin: 0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
