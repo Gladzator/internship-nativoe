@@ -51,15 +51,15 @@ export class Intro_profiles_panel extends React.Component {
               <div className="user_description">
                 <div className="user_info">
                   <div className="user_content">
-                    <img src="/images/user-1.jpg"/>
+                    <img className="img_desc" src="/images/user-1.jpg"/>
                     <p className="user_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className="user_content">
-                  <img src="/images/user-2.jpg"/>
+                  <img className="img_desc" src="/images/user-2.jpg"/>
                   <p className="user_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
                 <div className="user_content">
-                  <img src="/images/user-3.jpg"/>
+                  <img className="img_desc" src="/images/user-3.jpg"/>
                   <p className="user_para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
             </div>

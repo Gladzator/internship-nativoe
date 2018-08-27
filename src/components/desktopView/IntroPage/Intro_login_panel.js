@@ -31,6 +31,8 @@ export class Intro_login_panel extends React.Component {
     const validName = /^[a-zA-Z0-9_]+\@[a-z]+\.com$/.test(name);
     if( !this.state.name || !this.state.password || !validName){
       this.setState(() => ({ error: 'Please provide valid username and password.'}));
+    } else if(this.state.password.length <= 6){
+      this.setState(() => ({error: 'Password length should be more than 6 characters!'}));
     } else {
       this.props.startnewAccount(this.state.name,this.state.password);
     }

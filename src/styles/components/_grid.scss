@@ -1,11 +1,12 @@
 .intro_grid {
   display: grid;
-  grid-template-columns: 2.5fr 1fr;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 5rem;
   margin-bottom: 3rem;
 }
 .Intro_profiles_panel_grid {
   display: grid;
-  grid-template-columns: 2fr;
+  grid-template-columns: 1fr;
 }
 .form__error {
   color: red;
