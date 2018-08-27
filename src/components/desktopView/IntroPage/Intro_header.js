@@ -37,7 +37,7 @@ export class Intro_header extends React.Component {
         console.log(errorCode);
         if(errorCode === 'auth/user-not-found') {
           if(jsx.state.password.length <= 6){
-            jsx.setState(() => ({error: 'Password length less than 6 characters!'}));
+            jsx.setState(() => ({error: 'Password length should be more  than 6 characters!'}));
           } else {
             jsx.props.startnewAccount(jsx.state.name,jsx.state.password);
             jsx.setState(() => ({error:'',message: 'New account created!'}))
